@@ -21,14 +21,15 @@ public class BinarySearch {
 	}
 
 	public static void main(String[] args) throws Exception {
-		BinarySearchInput[] inputs = new Gson().fromJson(new FileReader("binary-search/input.json"), BinarySearchInput[].class);
+		BinarySearchInput[] inputs = new Gson().fromJson(new FileReader("binary-search/input.json"),
+				BinarySearchInput[].class);
 		for (BinarySearchInput input : inputs) {
 			int r = binarySearch(input.key, input.array);
+			System.out.println("binarySearch(" + input.key + ", " + new Gson().toJson(input.array) + ") => " + r);
 			if (input.result != r) {
-				throw new Exception("binary search failed for: " + new Gson().toJson(input) + ", actual: " + r);
+				throw new Exception("failed. expected = " + input.result + ", actual = " + r);
 			}
 		}
-		System.out.println("ok.");
 	}
 
 }
