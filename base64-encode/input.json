@@ -1,0 +1,22 @@
+[
+  {
+    "source": "AB",
+    "result": "QUI="
+  },
+  {
+    "source": "xyz",
+    "result": "eHl6"
+  },
+  {
+    "source": "Hello, world!",
+    "result": "SGVsbG8sIHdvcmxkIQ=="
+  },
+  {
+    "source": "\u4e2d\u6587\u6d4b\u8bd5",
+    "result": "5Lit5paH5rWL6K+V"
+  },
+  {
+    "source": "\u00ff\u00fe\u00fd\u00fc",
+    "result": "w7/DvsO9w7w="
+  }
+]
