@@ -1,0 +1,27 @@
+[
+  {
+    "source": "the quick brown fox jumps over the lazy dog",
+    "target": "quick",
+    "result": 4
+  },
+  {
+    "source": "the quick brown fox jumps over the lazy dog",
+    "target": "lazy dog",
+    "result": 35
+  },
+  {
+    "source": "the quick brown fox jumps over the lazy dog",
+    "target": "the",
+    "result": 0
+  },
+  {
+    "source": "the quick brown fox jumps over the lazy dog",
+    "target": "jumped",
+    "result": -1
+  },
+  {
+    "source": "the quick brown fox jumps over the lazy dog",
+    "target": "the lazy",
+    "result": 31
+  }
+]
